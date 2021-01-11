@@ -9,17 +9,20 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
-<body>
+<body style="background-color:powderblue;">
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-xs-12 col-md-12 jumbotron text-center" style="background-image: url(https://phil.cdc.gov//PHIL_Images/09182002/00001/PHIL_2153_lores.jpg);
+      height: 300px;
+      background-position: center;
+      background-size: cover;">
         <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <p><b>Use the interactive charts below to explore the dataset</b></p>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-xs-12 col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
@@ -32,15 +35,15 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
+      <div class="col-xs-12 col-md-5">
         <div id="gauge"></div>
+      </div>
+      <div class="col-xs-12 col-md-5">
+        <div id="bar"></div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-xs-12 col-md-12">
         <div id="bubble"></div>
       </div>
     </div>

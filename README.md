@@ -8,5 +8,7 @@ I also added a number of customizations to the site. They are as follows:
 2. Added a background color to the page and to each chart
 3. Changed the layout of the page and bolded the paragraph font
 
-## Image of the results for Subject ID #963
+## Image of the Website
+Results for Subject ID #963
+
 ![Belly_Button_Biodiversity](https://github.com/luke-c-newell/Belly_Button_Biodiversity/blob/main/Images/Belly_Button_Biodiversity.png "Mission_to_Mars.png")
